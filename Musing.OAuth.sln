@@ -1,6 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musing.OAuth.API", "Musing.OAuth.API\Musing.OAuth.API.csproj", "{D7C6AAB1-F6C6-492E-AAC6-29F68DAD76BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musing.OAuth.API", "src\Musing.OAuth.API\Musing.OAuth.API.csproj", "{D7C6AAB1-F6C6-492E-AAC6-29F68DAD76BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musing.OAuth.Domain", "src\Musing.OAuth.Domain\Musing.OAuth.Domain.csproj", "{4C3A9D6F-1A6D-4A12-A2A4-111122223333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musing.OAuth.Application", "src\Musing.OAuth.Application\Musing.OAuth.Application.csproj", "{5D4B0E70-2B7E-4B23-B3B5-222233334444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musing.OAuth.Infrastructure", "src\Musing.OAuth.Infrastructure\Musing.OAuth.Infrastructure.csproj", "{6E5C1F81-3C8F-4C34-C4C6-333344445555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musing.OAuth.UnitTests", "tests\Musing.OAuth.UnitTests\Musing.OAuth.UnitTests.csproj", "{7F6D2A92-4D9E-4F45-9E77-444455556666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musing.OAuth.IntegrationTests", "tests\Musing.OAuth.IntegrationTests\Musing.OAuth.IntegrationTests.csproj", "{8F7E3BA3-5EAF-4F56-AF88-555566667777}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +22,25 @@ Global
 		{D7C6AAB1-F6C6-492E-AAC6-29F68DAD76BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C6AAB1-F6C6-492E-AAC6-29F68DAD76BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C6AAB1-F6C6-492E-AAC6-29F68DAD76BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3A9D6F-1A6D-4A12-A2A4-111122223333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3A9D6F-1A6D-4A12-A2A4-111122223333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3A9D6F-1A6D-4A12-A2A4-111122223333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3A9D6F-1A6D-4A12-A2A4-111122223333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4B0E70-2B7E-4B23-B3B5-222233334444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4B0E70-2B7E-4B23-B3B5-222233334444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4B0E70-2B7E-4B23-B3B5-222233334444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4B0E70-2B7E-4B23-B3B5-222233334444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5C1F81-3C8F-4C34-C4C6-333344445555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5C1F81-3C8F-4C34-C4C6-333344445555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5C1F81-3C8F-4C34-C4C6-333344445555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5C1F81-3C8F-4C34-C4C6-333344445555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F6D2A92-4D9E-4F45-9E77-444455556666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F6D2A92-4D9E-4F45-9E77-444455556666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F6D2A92-4D9E-4F45-9E77-444455556666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F6D2A92-4D9E-4F45-9E77-444455556666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7E3BA3-5EAF-4F56-AF88-555566667777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7E3BA3-5EAF-4F56-AF88-555566667777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7E3BA3-5EAF-4F56-AF88-555566667777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7E3BA3-5EAF-4F56-AF88-555566667777}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
